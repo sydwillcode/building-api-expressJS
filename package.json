@@ -1,0 +1,20 @@
+{
+  "name": "building-api-expressjs",
+  "version": "1.0.0",
+  "description": "Building a simple API using ExpressJS",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "Sydni Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
