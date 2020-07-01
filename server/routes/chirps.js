@@ -2,7 +2,6 @@ const express = require('express');
 const chirpStore = require('../chirpstore');
 let router = express.Router();
 
-
 router.get('/:id?', (req, res) => {
     let id = req.params.id
     if(id) {
@@ -22,8 +21,6 @@ router.post('/', (req, res) => {
     chirpStore.CreateChirp(chirpObj);
     res.sendStatus(200)
 })
-
-// router.post('/')
 
 router.put('/:id?', (req, res) => {
     let id = req.params.id;
